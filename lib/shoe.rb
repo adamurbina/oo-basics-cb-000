@@ -26,7 +26,7 @@ class Shoe
     end
 
     def material=(material)
-        @material
+        @material = material
     end
 
     def material
@@ -42,6 +42,7 @@ class Shoe
     end
 
     def cobble
-
+        puts "Your shoe is as good as new!"
+        @condition = "new"
     end
 end
